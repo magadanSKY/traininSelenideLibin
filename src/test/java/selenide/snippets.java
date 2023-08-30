@@ -30,7 +30,7 @@ public class snippets {
         Selenide.clearBrowserLocalStorage();
         executeJavaScript("sessionStorage.clear();"); // no Selenide command for this yet
 
-        Selenide.confirm(); // OK in alert dialogs22
+        Selenide.confirm(); // OK in alert dialogs
         Selenide.dismiss(); // Cancel in alert dialogs
 
         Selenide.closeWindow(); // close active tab
