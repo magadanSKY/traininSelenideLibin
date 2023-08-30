@@ -15,7 +15,7 @@ public class BestContributionToSelenideTest {
 
         Configuration.holdBrowserOpen = true;
 
-        //открыть страницу гита selenide
+        //открыть страницу гита selenide 22
         open("https://github.com/selenide/selenide");
         //найти первого контрибьютора и вывести его хавер
         $(".Layout-sidebar").$(Selectors.byText("Contributors")).ancestor(".BorderGrid-row")

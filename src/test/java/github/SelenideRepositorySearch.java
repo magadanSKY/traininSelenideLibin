@@ -18,7 +18,7 @@ public class SelenideRepositorySearch {
 
         //открыть главную страницу
         open("https://github.com/");
-        //ввести в поле поиска selenide и нажать enter
+        //ввести в поле поиска selenide и нажать enter22
         $(".search-input").click();
         $("[data-target=\"query-builder.input\"]").setValue("selenide").pressEnter();
         //кликнуть первый репозиторий из списка найденных

@@ -15,7 +15,7 @@ public class homeworkWikiAssertion {
 
         open("https://github.com/selenide/selenide");
         $("#wiki-tab").click();
-        //Убедитесь, что в списке страниц (Pages) есть страница SoftAssertions
+        //Убедитесь, что в списке страниц (Pages) есть страница SoftAssertions22
         sleep(10000);
         $(".wiki-rightbar").$$(byText("Show 2 more pages…")).first().click();
         sleep(10000);
